@@ -11,6 +11,15 @@ function changeColorItem(event) {
   }
 }
 
+function doubleClick(event) {
+  let lineSelected = event.target;
+  if (lineSelected.classList.contains('completed')) {
+    event.target.classList.remove('completed');
+  } else {
+    event.target.classList.add('completed');
+  }
+}
+
 function newListItem() {
   const li = document.createElement('li');
   const inputValue = document.getElementById('texto-tarefa').value;
@@ -22,11 +31,19 @@ function newListItem() {
   document.getElementById('texto-tarefa').value = '';
 }
 
-function doubleClick(event) {
-  let lineSelected = event.target;
-  if (lineSelected.classList.contains('completed')) {
-    event.target.classList.remove('completed');
-  } else {
-    event.target.classList.add('completed');
+function clearList() {
+  let allLines = document.querySelectorAll('li');
+  for (let index = 0; index < allLines.length; index += 1) {
+    let currentLine = allLines[index];
+    if  {
+      
+    } else {
+  }
+}
+
+function removeCompleted() {
+  const completedTasks = document.querySelectorAll('completed');
+  for (let index = 0; index < completedTasks.length; index += 1) {
+    completedTasks[index].remove();
   }
 }
