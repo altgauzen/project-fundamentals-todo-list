@@ -34,15 +34,12 @@ function newListItem() {
 function clearList() {
   let allLines = document.querySelectorAll('li');
   for (let index = 0; index < allLines.length; index += 1) {
-    let currentLine = allLines[index];
-    if  {
-      
-    } else {
+    allLines[index].remove();
   }
 }
 
 function removeCompleted() {
-  const completedTasks = document.querySelectorAll('completed');
+  const completedTasks = document.querySelectorAll('.completed');
   for (let index = 0; index < completedTasks.length; index += 1) {
     completedTasks[index].remove();
   }
