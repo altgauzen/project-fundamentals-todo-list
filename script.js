@@ -56,3 +56,17 @@ function removeCompleted() {
     completedTasks[index].remove();
   }
 }
+
+/*  function saveList() {
+  const currList = document.querySelectorAll('li');
+
+}  */
+
+function removeItem() {
+  const allLines = document.querySelectorAll('li');
+  for (let index = 0; index < allLines.length; index += 1) {
+    if (allLines[index].classList.contains('selected')) {
+      allLines[index].remove('li');
+    }
+  }
+}
