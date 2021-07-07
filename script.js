@@ -1,5 +1,5 @@
 function changeColorItem(event) {
-  //  armazena na constante allLines a lista dos elementos li 
+  //  armazena na constante allLines a lista dos elementos li
   const allLines = document.querySelectorAll('li');
   //  armazena na constante lineSelected o elemento acionado no click
   const lineSelected = event.target;
@@ -13,9 +13,9 @@ function changeColorItem(event) {
     }
   }
 }
-//  background-color: rgb(128, 128, 128);
+
 function lineThrough(event) {
-  let lineSelected = event.target;
+  const lineSelected = event.target;
   if (lineSelected.classList.contains('completed')) {
     event.target.classList.remove('completed');
   } else {
@@ -44,7 +44,7 @@ function newListItem() {
 }
 
 function clearList() {
-  let allLines = document.querySelectorAll('li');
+  const allLines = document.querySelectorAll('li');
   for (let index = 0; index < allLines.length; index += 1) {
     allLines[index].remove();
   }
