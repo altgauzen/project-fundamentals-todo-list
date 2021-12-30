@@ -1,8 +1,18 @@
-### Termos e acordos
+# project-fundamentals-todo-list
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
+## Meus Comentários
 
+Este foi um projeto individual feito na Trybe no Módulo de Fundamentos onde criei um app de Lista de Tarefas utilizando o que aprendí de HTML, CSS e JavaScript até o momento.
+
+Aprendí neste Projeto a: 
+ - Manipular CSS;
+ - Manipular Javascript.
+
+---
+
+Aproveitamento: 85.71% de aprovação pelos avaliadores da Trybe.
+
+---
 # Boas vindas ao repositório do projeto Lista de Tarefas!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
